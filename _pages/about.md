@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Mit navn er Simon Stochholm. Jeg er lektor på UCL.
 
 
 
