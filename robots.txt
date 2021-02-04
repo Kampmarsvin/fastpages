@@ -1,1 +1,1 @@
-Sitemap: https://kampmarsvin.github.io/blog/sitemap.xml
+Sitemap: https://kampmarsvin.github.io/fastpages/sitemap.xml
