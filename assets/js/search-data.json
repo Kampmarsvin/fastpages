@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Code snippet",
-            "content": "Her er en code snippet til bogen Deep Learning for Coders with fastai and PyTorch p. 66. Da Bings search api er blevet opdateret, virker metoden: search_images_bing ikke længere, så jeg har skrevet en metode der kan bruges i stedet for . def search_images_bing_new(key, term, customConfigId, min_sz=128): url = &#39;https://api.bing.microsoft.com/v7.0/custom/images/search?&#39; + &#39;q=&#39; + searchTerm + &#39;&amp;&#39; + &#39;customconfig=&#39; + customConfigId + &#39;&amp;&#39; + &#39;count=150&#39; r = requests.get(url, headers={&#39;Ocp-Apim-Subscription-Key&#39;: key}) search_results = r.json() return L([img[&quot;thumbnailUrl&quot;] for img in search_results[&quot;value&quot;][:150]]) .",
+            "content": "Her er en code snippet til bogen Deep Learning for Coders with fastai and PyTorch p. 66. Da Bings search api er blevet opdateret, virker metoden: search_images_bing ikke længere, så jeg har skrevet en metode der kan bruges i stedet for . def search_images_bing_new(key, term, customConfigId, min_sz=128): url = &#39;https://api.bing.microsoft.com/v7.0/custom/images/search?&#39; + &#39;q=&#39; + term + &#39;&amp;&#39; + &#39;customconfig=&#39; + customConfigId + &#39;&amp;&#39; + &#39;count=150&#39; r = requests.get(url, headers={&#39;Ocp-Apim-Subscription-Key&#39;: key}) search_results = r.json() return L([img[&quot;thumbnailUrl&quot;] for img in search_results[&quot;value&quot;][:150]]) .",
             "url": "https://kampmarsvin.github.io/fastpages/2021/02/01/Code-snippet.html",
             "relUrl": "/2021/02/01/Code-snippet.html",
             "date": " • Feb 1, 2021"
